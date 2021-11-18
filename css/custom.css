@@ -1,1 +1,18 @@
 /* your styles go here */
+
+
+/*Custom Text Color*/
+
+.customtextcolor {
+    color: black
+}
+
+.customtextcolor:hover {
+    color: lightgray
+}
+
+nav.navbar a.nav-link.active,
+nav.navbar a.nav-link:hover {
+    color: #333;
+    border-top-color: black;
+}
