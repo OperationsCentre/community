@@ -22,3 +22,16 @@ nav.navbar a.nav-link:hover {
     color: #333;
     border-top-color: black;
 }
+
+.serverbutton {
+    border-radius: 25px;
+    color: gray;
+    border-color: gray;
+}
+
+.serverbutton:hover {
+    border-radius: 25px;
+    color: blue;
+    border-color: green;
+    background-color: red;
+}
