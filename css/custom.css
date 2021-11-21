@@ -25,13 +25,20 @@ nav.navbar a.nav-link:hover {
 
 .serverbutton {
     border-radius: 25px;
-    color: gray;
-    border-color: gray;
+    color: rgb(255, 149, 0);
+    border-color: rgb(255, 149, 0);
 }
 
 .serverbutton:hover {
     border-radius: 25px;
-    color: blue;
-    border-color: green;
-    background-color: red;
+    color: white;
+    border-color: rgb(255, 149, 0);
+    background-color: rgb(255, 149, 0);
+}
+
+.serverbutton:target {
+    border-radius: 25px;
+    color: white;
+    border-color: rgb(255, 149, 0);
+    background-color: rgb(255, 149, 0);
 }
