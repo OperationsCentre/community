@@ -30,7 +30,7 @@ body {
     color: #555;
 }
 
-p {
+p ul li {
     color: #555;
 }
 
@@ -828,6 +828,7 @@ STYLE SWITCHER FOR DEMO
  */
 
 .btn {
+    transform: scale(1.1);
     font-weight: 400;
     border: 1px solid transparent;
     text-transform: uppercase;
@@ -840,12 +841,22 @@ STYLE SWITCHER FOR DEMO
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: 0.2s;
+    transform: scale(1);
+    border-radius: 25px;
+    width: 250px;
 }
 
 .btn:focus,
 .btn.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.25);
+    transition: 0.2s;
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(255, 149, 0);
+    box-shadow: 0 0 0 0.2rem rgb(255, 149, 0);
+}
+
+.btn:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
 }
 
 .btn.disabled,
@@ -914,7 +925,7 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(145, 145, 145, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
 }
 
@@ -1199,27 +1210,27 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-primary {
-    color: #4fbfa8;
+    color: rgb(255, 149, 0);
     background-color: transparent;
     background-image: none;
-    border-color: #4fbfa8;
+    border-color: rgb(255, 149, 0);
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #4fbfa8;
-    border-color: #4fbfa8;
+    background-color: rgb(255, 149, 0);
+    border-color: rgb(255, 149, 0);
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 149, 0, 0);
+    box-shadow: 0 0 0 0.2rem rgba(255, 149, 0, 0.5);
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #4fbfa8;
+    color: rgb(255, 149, 0);
     background-color: transparent;
 }
 
@@ -1227,15 +1238,15 @@ STYLE SWITCHER FOR DEMO
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #212529;
-    background-color: #4fbfa8;
-    border-color: #4fbfa8;
+    background-color: rgb(255, 149, 0);
+    border-color: rgb(255, 149, 0);
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 149, 0, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 149, 0, 0.5);
 }
 
 .btn-outline-secondary {

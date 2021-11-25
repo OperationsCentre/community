@@ -5,15 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Operations Centre</title>
-    <!--
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Operations Centre" />
-    <meta property="og:description" content="Bringing People Together" />
-    <meta property="og:url" content="https://operationscentre.github.io/community/" />
-    <meta property="og:image" content="img/Operations_Logo.png" />
-    <meta name="twitter:image" content="img/Operations_Logo.png" />
-    <link rel="icon" href="img/Operations_Logo.ico">
--->
+
+    <!--Metadata for embeds-->
     <meta name="description" content="Bringing People Together" />
     <link rel="canonical" href="https://operationscentre.github.io/community/" />
     <meta property="og:title" content="Operations Centre" />
@@ -105,42 +98,6 @@
                         community, our Discord server. We'd love to welcome you!</p>
                 </div>
                 <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/Operations_Logo.png" alt="Logo" class="image rounded-circle img-fluid"></div>
-
-                <!--
-                    <div data-animate="fadeInUp" class="col-lg-6">
-                    <div class="skill-item">
-                        <div class="progress-title">PHP</div>
-                        <div class="progress">
-                            <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="progress-title">Javascript</div>
-                        <div class="progress">
-                            <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="progress-title">HTML coding</div>
-                        <div class="progress">
-                            <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="progress-title">SEO</div>
-                        <div class="progress">
-                            <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="progress-title">SEM</div>
-                        <div class="progress">
-                            <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
-                        </div>
-                    </div>
-                </div>
-            -->
-
             </div>
         </div>
     </section>
@@ -158,8 +115,10 @@
                 <!--
                 <ul id="filter" data-animate="fadeInUp">
                     <li class="active"><a href="#" data-filter="all">All</a></li>
+                    <li class=""><a href="#" data-filter="servers">Servers</a></li>
                 </ul>
                 -->
+
                 <div id="detail">
                     <div class="row">
                         <div class="col-lg-10 mx-auto"><span class="close">×</span>
@@ -174,7 +133,7 @@
                 <!-- Reference detail-->
                 <div id="references-masonry" data-animate="fadeInUp" class="cust_center">
                     <div class="row">
-                        <div data-category="rustserver" class="reference-item col-lg-3 col-md-6 cust_center">
+                        <div data-category="servers" class="reference-item col-lg-3 col-md-6 cust_center">
                             <div class="reference">
                                 <a href="#"><img src="img/rust-logo.jpg" alt="" class="img-fluid">
                                     <div class="overlay">
@@ -186,12 +145,15 @@
                                 </a>
                                 <div data-images="img/rust-banner.jpg" class="sr-only reference-description">
                                     <p>Rust Server Description...</p>
-                                    <p class="buttons text-center"><a href="steam://connect/104.243.40.196:28235" target="_blank" class="btn btn-outline-primary serverbutton"><i class="fa"></i>Join Server</a>
-                                        <a href="https://www.dropbox.com/s/p74pwhwm4aw5hr1/Rusty_Operations_2.0_shortcut.zip?dl=0" target="_blank" class="btn btn-outline-primary serverbutton"><i class="fa"></i>Download Shortcut</a></p>
+                                    <p class="buttons text-center">
+                                        <a href="steam://connect/104.243.40.196:28235" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Server</a>
+                                        <a href="https://www.dropbox.com/s/p74pwhwm4aw5hr1/Rusty_Operations_2.0_shortcut.zip?dl=0" target="_blank" class="btn btn-outline-primary"><i class="fa"></i>Download Shortcut</a>
+                                        <a href="https://rust-servers.net/server/164065/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Vote</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-category="conanserver" class="reference-item col-lg-3 col-md-6 cust_center">
+                        <div data-category="servers" class="reference-item col-lg-3 col-md-6 cust_center">
                             <div class="reference">
                                 <a href="#"><img src="img/conan-logo.png" alt="" class="img-fluid">
                                     <div class="overlay">
@@ -201,7 +163,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <div data-images="img/conan-banner1.png" class="sr-only reference-description">
+                                <div data-images="img/conan-banner1.png,img/Conan-Exiles-1.jpg,img/Conan-Exiles-2.jpg,img/Conan-Exiles-3.jpg,img/Conan-Exiles-4.jpg,img/Conan-Exiles-5.jpg,img/Conan-Exiles-6.jpg,img/Conan-Exiles-7.jpg" class="sr-only reference-description">
                                     <p>Our Conan server offers a PvE experience on the Exiled Lands map with no wipes, a 2x harvest rate and a few quality-of-life mods aimed at creating more immersive gameplay. Our server is labelled as casual RP - this
                                         means that RP is not required or enforced but we try to encourage it. The server is host to many different features such as:</p>
                                     <ul>
@@ -226,8 +188,11 @@
                                     </ul>
                                     <p>The server is hosted in East US but is also suitable for players in the EU, so come join us and help us build an amazing server!</p>
                                     <p>The Workshop Collection is required to play!</p>
-                                    <p class="buttons text-center"><a href="steam://connect/192.154.228.127:17143" target="_blank" class="btn btn-outline-primary serverbutton"><i class="fa"></i>Join Server</a>
-                                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2616177527" target="_blank" class="btn btn-outline-primary serverbutton"><i class="fa"></i>Workshop Collection</a></p>
+                                    <p class="buttons text-center">
+                                        <a href="steam://connect/192.154.228.127:17143" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Server</a>
+                                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2616177527" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Workshop Collection</a>
+                                        <a href="https://conan-exiles.com/server/89716/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Vote</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -243,10 +208,7 @@
                                 </a>
                                 <div data-images="img/rust-banner.jpg,https://media.discordapp.net/attachments/841624240977084416/909537529416548372/unknown_2021.11.14-20.13.png" class="sr-only reference-description">
                                     <p>Other Description...</p>
-                                    <iframe src="https://discord.com/widget?id=651455552517570586&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                                    <a class="twitter-timeline" href="https://twitter.com/OperationsCent" data-tweet-limit="1" data-width="399"></a>
-                                    <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    <p class="buttons text-center"><a href="javascript:void(0);" target="_blank" class="btn btn-outline-primary serverbutton"><i class="fa"></i>Join Our Discord</a></p>
+                                    <p class="buttons text-center"><a href="javascript:void(0);" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Our Discord</a></p>
                                 </div>
                             </div>
                         </div>
@@ -255,7 +217,8 @@
             </div>
         </div>
     </section>
-    <!-- Customers-->
+
+    <!-- Socials-->
     <section id="socials" class="customers-section bg-gray">
         <div class="container">
             <div class="col-md-12">
@@ -287,7 +250,7 @@
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 cust_center">
                         <div class="customer cust_center">
-                            <a href="https://steamcommunity.com/groups/operations-centrentre" target="_blank"><img src="img/Steam_Logo.png" title="Steam" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></a>
+                            <a href="https://steamcommunity.com/groups/operations-centre" target="_blank"><img src="img/Steam_Logo.png" title="Steam" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></a>
                         </div>
                     </div>
                 </div>
@@ -320,6 +283,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js">
     </script>
     <script src="js/front.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
