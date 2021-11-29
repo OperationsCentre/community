@@ -43,3 +43,63 @@ nav.navbar a.nav-link:hover {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.rustprogressbar {
+    width: 300px;
+    height: 30px;
+}
+
+
+/* For Chrome or Safari */
+
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(255, 149, 0) !important;
+}
+
+
+/* For Firefox */
+
+progress {
+    background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgb(255, 149, 0) !important;
+}
+
+
+/* For IE10 */
+
+progress {
+    background-color: #eee;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(255, 149, 0);
+    display: inline-block;
+    position: relative;
+}
+
+progress::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+/*border: 1px solid black;*/
+
+th,
+td {
+    text-align: center;
+    height: 30px;
+}

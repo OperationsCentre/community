@@ -139,15 +139,31 @@
                                     <div class="overlay">
                                         <div class="inner">
                                             <h3 class="h4 reference-title">Rust Server</h3>
-                                            <p></p>
                                         </div>
                                     </div>
                                 </a>
                                 <div data-images="img/rust-banner.jpg" class="sr-only reference-description">
                                     <p>Rust Server Description...</p>
+                                    <div>
+
+                                    </div>
+                                    <table style="width:100%">
+                                        <tr>
+                                            <th colspan="2" id="rust-servername"></th>
+                                        </tr>
+                                        <tr style="width: 50%;">
+                                            <td>Current Players</th>
+                                                <td>Server Rank</th>
+                                        </tr>
+                                        <tr>
+                                            <td><progress id="rust-population" value="100" max="100" class="rustprogressbar" data-text=""></progress></td>
+                                            <td id="rust-rank"></td>
+                                        </tr>
+                                    </table>
+
                                     <p class="buttons text-center">
                                         <a href="steam://connect/104.243.40.196:28235" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Server</a>
-                                        <a href="https://www.dropbox.com/s/p74pwhwm4aw5hr1/Rusty_Operations_2.0_shortcut.zip?dl=0" target="_blank" class="btn btn-outline-primary"><i class="fa"></i>Download Shortcut</a>
+                                        <a href="https://www.dropbox.com/s/p74pwhwm4aw5hr1/Rusty_Operations_2.0_shortcut.zip?dl=1" target="_blank" class="btn btn-outline-primary"><i class="fa"></i>Download Shortcut</a>
                                         <a href="https://rust-servers.net/server/164065/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Vote</a>
                                     </p>
                                 </div>
@@ -280,8 +296,8 @@
     <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+    <script src="https://api.rust-servers.info/embed.js?id=5897"></script>
     <script src="js/front.js"></script>
     <script src="js/custom.js"></script>
 </body>
