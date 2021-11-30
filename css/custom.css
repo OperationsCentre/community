@@ -8,7 +8,7 @@
 }
 
 .customtextcolor:hover {
-    color: lightgray
+    color: black
 }
 
 .cust_center {
@@ -20,7 +20,7 @@
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover {
     color: #333;
-    border-top-color: black;
+    border-top-color: darkgray;
 }
 
 .serverbutton:hover {
@@ -44,8 +44,8 @@ nav.navbar a.nav-link:hover {
     margin-right: 10%;
 }
 
-.rustprogressbar {
-    width: 300px;
+.playerprogressbar {
+    width: 250px;
     height: 30px;
 }
 

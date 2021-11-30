@@ -143,21 +143,22 @@
                                     </div>
                                 </a>
                                 <div data-images="img/rust-banner.jpg" class="sr-only reference-description">
-                                    <p>Rust Server Description...</p>
-                                    <div>
-
-                                    </div>
+                                    <p id="rust-description">Rust Server Description...</p>
                                     <table style="width:100%">
                                         <tr>
-                                            <th colspan="2" id="rust-servername"></th>
+                                            <th colspan="4" id="rust-servername"></th>
                                         </tr>
                                         <tr style="width: 50%;">
-                                            <td>Current Players</th>
-                                                <td>Server Rank</th>
+                                            <td>Current Players</td>
+                                            <td>Server Rank</td>
+                                            <td>Current FPS</td>
+                                            <td>Average FPS</td>
                                         </tr>
                                         <tr>
-                                            <td><progress id="rust-population" value="100" max="100" class="rustprogressbar" data-text=""></progress></td>
+                                            <td><progress id="rust-population" value="100" max="100" class="playerprogressbar" data-text=""></progress></td>
                                             <td id="rust-rank"></td>
+                                            <td id="rust-curfps"></td>
+                                            <td id="rust-avgfps"></td>
                                         </tr>
                                     </table>
 
@@ -180,6 +181,19 @@
                                     </div>
                                 </a>
                                 <div data-images="img/conan-banner1.png,img/Conan-Exiles-1.jpg,img/Conan-Exiles-2.jpg,img/Conan-Exiles-3.jpg,img/Conan-Exiles-4.jpg,img/Conan-Exiles-5.jpg,img/Conan-Exiles-6.jpg,img/Conan-Exiles-7.jpg" class="sr-only reference-description">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <th colspan="2" id="conan-servername"></th>
+                                        </tr>
+                                        <tr style="width: 50%;">
+                                            <td>Current Players</th>
+                                                <td>Server Rank</th>
+                                        </tr>
+                                        <tr>
+                                            <td><progress id="conan-population" value="100" max="100" class="playerprogressbar" data-text=""></progress></td>
+                                            <td id="conan-rank"></td>
+                                        </tr>
+                                    </table>
                                     <p>Our Conan server offers a PvE experience on the Exiled Lands map with no wipes, a 2x harvest rate and a few quality-of-life mods aimed at creating more immersive gameplay. Our server is labelled as casual RP - this
                                         means that RP is not required or enforced but we try to encourage it. The server is host to many different features such as:</p>
                                     <ul>
@@ -233,7 +247,6 @@
             </div>
         </div>
     </section>
-
     <!-- Socials-->
     <section id="socials" class="customers-section bg-gray">
         <div class="container">
