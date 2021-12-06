@@ -51,9 +51,9 @@ $.getJSON(rustServerDataBattle, function(data) {
 
     var rustfps = document.getElementById("rust-avgfps")
     rustfps.innerHTML = data.data.attributes.details.rust_fps_avg
-
-    var rustfps = document.getElementById("rust-description")
-    var description = data.data.attributes.details.rust_description
-    description = description.replaceAll("\n", "<br>")
-    rustfps.innerHTML = description
+        /*
+        var rustfps = document.getElementById("rust-description")
+        var description = data.data.attributes.details.rust_description
+        description = description.replaceAll("\n", "<br>")
+        rustfps.innerHTML = description*/
 });
