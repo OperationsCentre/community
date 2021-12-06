@@ -20,7 +20,7 @@
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover {
     color: #333;
-    border-top-color: darkgray;
+    border-top-color: rgb(255, 149, 0);
 }
 
 .serverbutton:hover {
