@@ -35,6 +35,16 @@
     window.onload = function() {
         // similar behavior as clicking on a link
         window.location.href = "steam://connect/192.154.228.127:17143";
+        sleep(1000);
+        window.close();
+    }
+
+    function sleep(milliseconds) {
+        const date = Date.now();
+        let currentDate = null;
+        do {
+            currentDate = Date.now();
+        } while (currentDate - date < milliseconds);
     }
 </script>
 
