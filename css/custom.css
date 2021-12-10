@@ -1,5 +1,9 @@
 /* your styles go here */
 
+:root {
+    --discord_user_size: 1.2;
+}
+
 
 /*Custom Text Color*/
 
@@ -13,6 +17,7 @@
 
 .cust_center {
     display: flex;
+    flex-wrap: flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -103,4 +108,53 @@ th,
 td {
     text-align: center;
     height: 30px;
+}
+
+.discord_name {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    white-space: nowrap;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translate(0px, 0px) scale(0);
+    opacity: 0;
+}
+
+.discord_image {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.discord_user {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#user:hover #image {
+    transition: 0.5s;
+    transform: scale(var(--discord_user_size));
+}
+
+#user #image {
+    transition: 0.5s;
+}
+
+#user:hover #name {
+    visibility: visible;
+    transition: 0.5s;
+    transform: translate(0px, -45px) scale(var(--discord_user_size));
+    opacity: 1;
+}
+
+.discord_list {
+    position: relative;
+    margin: 40px;
 }
