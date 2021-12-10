@@ -2,6 +2,7 @@
 
 :root {
     --discord_user_size: 1.2;
+    --discord_user_timer: 0.4s;
 }
 
 
@@ -113,44 +114,42 @@ td {
 .discord_name {
     text-align: center;
     align-items: center;
-    margin: auto;
     position: absolute;
     white-space: nowrap;
     visibility: hidden;
-    transition: 0.5s;
+    transition: var(--discord_user_timer);
     transform: translate(0px, 0px) scale(0);
     opacity: 0;
 }
 
 .discord_image {
     width: 40px;
-    height: auto;
+    height: 40px;
     border-radius: 50%;
-    margin: auto;
 }
 
 .discord_user {
-    height: 70px;
-    width: 70px;
-    align-items: center;
-    margin: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70px;
+    height: 70px;
 }
 
 #user:hover #image {
-    transition: 0.5s;
+    transition: var(--discord_user_timer);
     transform: scale(var(--discord_user_size));
 }
 
 #user #image {
-    transition: 0.5s;
+    transition: var(--discord_user_timer);
 }
 
 #user:hover #name {
     visibility: visible;
-    transition: 0.5s;
-    transform: translate(0px, -45px) scale(var(--discord_user_size));
+    transition: var(--discord_user_timer);
+    transform: translate(0px, -40px) scale(var(--discord_user_size));
     opacity: 1;
 }
 
