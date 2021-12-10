@@ -157,3 +157,7 @@ td {
     position: relative;
     margin: 40px;
 }
+
+.showbutton {
+    width: 150px !important;
+}
