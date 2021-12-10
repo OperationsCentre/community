@@ -62,7 +62,7 @@ var discordAPI = 'https://discord.com/api/guilds/651455552517570586/widget.json'
 
 const containerOriginal = document.getElementById("live_discord").innerHTML;
 
-var iMax = 10;
+var iMax = 8;
 $.getJSON(discordAPI, function(data) {
     const container = document.getElementById("live_discord");
     const template = document.getElementById("template");
@@ -86,11 +86,11 @@ $.getJSON(discordAPI, function(data) {
 
 function setMaxUsers() {
     const button = document.getElementById("showmorediscordusers");
-    if (iMax === 400) {
+    if (iMax === 40) {
         button.innerHTML = "Show More";
-        iMax = 10;
+        iMax = 8;
     } else {
-        iMax = 400;
+        iMax = 40;
         button.innerHTML = "Show Less";
     }
 

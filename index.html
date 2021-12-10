@@ -59,6 +59,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+                        <li class="nav-item"><a href="#discord" class="nav-link link-scroll">Discord</a></li>
                         <li class="nav-item"><a href="#whatweoffer" class="nav-link link-scroll">What do we Offer?</a></li>
                         <li class="nav-item"><a href="#socials" class="nav-link link-scroll">Socials</a></li>
                     </ul>
@@ -104,6 +105,29 @@
 
         </div>
 
+    </section>
+
+    <section id="discord">
+        <div class="container">
+            <header class="text-center">
+                <h2 data-animate="fadeInDown" class="title">Our Discord Server</h2>
+            </header>
+            <div data-animate="fadeInDown" class="discord_section">
+                <div class="cust_center">
+                    <p class="buttons text-center"><a id="showmorediscordusers" href="javascript:void(0);" onclick="setMaxUsers()" class="btn btn-outline-primary showbutton"><i class="fa"></i>Show More</a></p>
+                </div>
+            </div>
+            <div data-animate="fadeInDown">
+                <div id="live_discord" class="row discord_list">
+                    <template id="template">
+                    <div id="user" class="discord_user">
+                        <p class="discord_name" id="name">name</p>
+                        <p><img class="discord_image" id="image" src=""></p>
+                    </div>
+                </template>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="whatweoffer">
@@ -244,17 +268,7 @@
                                     </div>
                                 </a>
                                 <div data-images="img/rust-banner.jpg,https://media.discordapp.net/attachments/841624240977084416/909537529416548372/unknown_2021.11.14-20.13.png" class="sr-only reference-description">
-                                    <div>
-                                        <p class="buttons text-center"><a id="showmorediscordusers" href="javascript:void(0);" onclick="setMaxUsers()" class="btn btn-outline-primary showbutton"><i class="fa"></i>Show More</a></p>
-                                    </div>
-                                    <div id="live_discord" class="row discord_list">
-                                        <template id="template">
-                                            <div id="user" class="discord_user">
-                                                <p class="discord_name" id="name">name</p>
-                                                <p><img class="discord_image" id="image" src=""></p>
-                                            </div>
-                                        </template>
-                                    </div>
+
                                     <p>Other Description...</p>
                                     <p class="buttons text-center"><a href="javascript:void(0);" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Our Discord</a></p>
                                 </div>
