@@ -60,7 +60,8 @@
                         <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
                         <li class="nav-item"><a href="#discord" class="nav-link link-scroll">Discord</a></li>
-                        <li class="nav-item"><a href="#whatweoffer" class="nav-link link-scroll">What do we Offer?</a></li>
+                        <li class="nav-item"><a href="#whatweoffer" class="nav-link link-scroll">What do we Offer?</a>
+                        </li>
                         <li class="nav-item"><a href="#socials" class="nav-link link-scroll">Socials</a></li>
                     </ul>
                 </div>
@@ -84,9 +85,10 @@
                         can feel safe to socialise, play games, stream and attend events without feeling left out, bullied or discriminated against. Our attentive admins and moderators are there to help with any questions or problems and are very active
                         within the community.</p>
 
-                    <p>Here at the Operations Centre we offer many fun and social activities and opportunities, including:</p>
+                    <p>Here at the Operations Centre we offer many fun and social activities and opportunities, including:
+                    </p>
                     <ul>
-                        <li>Premium game servers (currently Rust and Conan Exiles)</li>
+                        <li>Premium Conan Exiles Server</li>
                         <li>Game server events (wipe events, holiday events, etc.)</li>
                         <li>Catered Discord server (social, fun, sharing and streaming channels)</li>
                         <li>Discord server events (Jackbox, movie nights, etc.)</li>
@@ -110,21 +112,72 @@
     <section id="discord">
         <div class="container">
             <header class="text-center">
-                <h2 data-animate="fadeInDown" class="title">Our Discord Server</h2>
+                <h2 data-animate="fadeInUp" class="title">Our Discord Server</h2>
             </header>
-            <div data-animate="fadeInDown" class="discord_section">
-                <div class="cust_center">
-                    <p class="buttons text-center"><a id="showmorediscordusers" href="javascript:void(0);" onclick="setMaxUsers()" class="btn btn-outline-primary showbutton"><i class="fa"></i>Show More</a></p>
-                </div>
-            </div>
-            <div data-animate="fadeInDown">
-                <div id="live_discord" class="row discord_list">
-                    <template id="template">
-                    <div id="user" class="discord_user">
-                        <p class="discord_name" id="name">name</p>
-                        <p><img class="discord_image" id="image" src=""></p>
+            <div data-animate="fadeInUp discord_section">
+                <div class="column">
+                    <div id="discord_users_section" class="discord_users_section">
+                        <h3 class="subtitle">Meet the Team</h3>
+                        <div id="live_discord" class="row discord_list ">
+                            <template id="template">
+                                <div id="user" class="discord_user">
+                                <p class="discord_name" id="name">name</p>
+                                <p><img class="discord_image" id="image" src=""></p>
+                            </div>
+                        </template>
+                            <div class="column">
+                                <div class="row discord_user_spacer" id="discord_user_spacer">
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">Terpene Boy</p>
+                                        <p class="discord_name" id="desc">Head Rust Admin</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/697595109415583756/a_b3a552d2d70c5fb6f70e792c955a0b70.gif?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">JackalTaco</p>
+                                        <p class="discord_name" id="desc">Head Conan Admin</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/228605814716366850/8dd6dba87edbe1ffd63c8b7ca0a8e874.webp?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">joshjh2002</p>
+                                        <p class="discord_name" id="desc">Discord Admin</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/362647384502697984/a_976e1b87771b24280ce9e25969087797.gif?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">Paco</p>
+                                        <p class="discord_name" id="desc">Discord Admin</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/659823293783736341/b8837bdba989fb63376ba4707c6ee821.webp?size=1024"></p>
+                                    </div>
+                                </div>
+                                <div class="row discord_user_spacer" id="discord_user_spacer">
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">Alan</p>
+                                        <p class="discord_name" id="desc">Moderator</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/456943422717165579/ef4f25cbc19971e9862efd04f5daa299.webp?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">EmilEngbo</p>
+                                        <p class="discord_name" id="desc">Moderator</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/281869975482793985/55d92d4f6184cb26f6291e0e1f0816f3.webp?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">Biohazard_65</p>
+                                        <p class="discord_name" id="desc">Moderator</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/676202370748776478/43185b7e6584f38bba4e9b6f5e604dae.webp?size=1024"></p>
+                                    </div>
+                                    <div id="user" class="discord_user">
+                                        <p class="discord_name" id="name">Blazingstardude</p>
+                                        <p class="discord_name" id="desc">Moderator</p>
+                                        <p><img class="discord_image" id="image" src="https://cdn.discordapp.com/avatars/339095443503972352/0c9a03a6cddc1c50072039a7c4a5f9c5.webp?size=1024"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </template>
+                    <div class="discord_buttons">
+                        <p class="buttons text-center">
+                            <a href="https://discord.gg/cgbGr5T" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join our Discord</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -158,49 +211,7 @@
                 <!-- Reference detail-->
                 <div id="references-masonry" data-animate="fadeInUp" class="cust_center">
                     <div class="row">
-                        <div data-category="servers" class="reference-item col-lg-3 col-md-6 cust_center">
-                            <div class="reference">
-                                <a href="#"><img src="img/rust-logo.jpg" alt="" class="img-fluid">
-                                    <div class="overlay">
-                                        <div class="inner">
-                                            <h3 class="h4 reference-title">Rust Server</h3>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div data-images="img/rust-banner.jpg,img/rust-server-img1.jpg,img/rust-server-img2.jpg,img/rust-server-img3.jpg,img/rust-server-img4.jpg,img/rust-server-img5.jpg,img/rust-server-img6.jpg,img/rust-server-img7.jpg,img/rust-server-img8.jpg,img/rust-server-img9.jpg,img/rust-server-img10.jpg,img/rust-server-img11.jpg"
-                                    class="sr-only reference-description">
-                                    <p>Rusty Operations is a PVP modded experience that focuses on keeping the authentic feel from vanilla, where you can play knowing everything has been balanced and tested. We have many functionalities including: a real
-                                        time voting system for 1 of our 7 maps, plenty of quality-of-life improvements to the core game, and many more. Here, you can expect a fully dedicated experience in both the United Kingdom and United States of America
-                                        with staff is in both regions too. We have a very friendly and respectful community backed through Discord and we’ve that has been growing since 2019. We host wipe events on the Rust server for holidays, and free
-                                        giveaways! Overall, the memories you make here -- with other players -- will be memorable moments!</p>
-                                    <table style="width:100%">
-                                        <tr>
-                                            <th colspan="4" id="rust-servername"></th>
-                                        </tr>
-                                        <tr style="width: 50%;">
-                                            <td>Current Players</td>
-                                            <td>Server Rank</td>
-                                            <td>Current FPS</td>
-                                            <td>Average FPS</td>
-                                        </tr>
-                                        <tr>
-                                            <td><progress id="rust-population" value="100" max="100" class="playerprogressbar" data-text=""></progress></td>
-                                            <td id="rust-rank"></td>
-                                            <td id="rust-curfps"></td>
-                                            <td id="rust-avgfps"></td>
-                                        </tr>
-                                    </table>
-                                    <p class="buttons text-center">
-                                        <a href="steam://connect/104.243.40.196:28235" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Server</a>
-                                        <a href="https://www.dropbox.com/s/p74pwhwm4aw5hr1/Rusty_Operations_2.0_shortcut.zip?dl=1" target="_blank" class="btn btn-outline-primary"><i class="fa"></i>Download Shortcut</a>
-                                        <a href="https://rust-servers.net/server/164065/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Vote</a>
-                                        <a href="https://rusty-operations-20.tebex.io/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Store</a>
-
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
+                        <!--Insert Rust Stuff Here-->
                         <div data-category="servers" class="reference-item col-lg-3 col-md-6 cust_center">
                             <div class="reference">
                                 <a href="#"><img src="img/conan-logo.png" alt="" class="img-fluid">
@@ -251,7 +262,8 @@
                                     <p>The Workshop Collection is required to play!</p>
                                     <p class="buttons text-center">
                                         <a href="steam://connect/192.154.228.127:17143" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Server</a>
-                                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2616177527" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Workshop Collection</a>
+                                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2616177527" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Workshop
+                                            Collection</a>
                                         <a href="https://conan-exiles.com/server/89716/" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Vote</a>
                                     </p>
                                 </div>
@@ -268,8 +280,7 @@
                                     </div>
                                 </a>
                                 <div data-images="img/rust-banner.jpg,https://media.discordapp.net/attachments/841624240977084416/909537529416548372/unknown_2021.11.14-20.13.png" class="sr-only reference-description">
-
-                                    <p>Other Description...</p>
+                                    <p></p>
                                     <p class="buttons text-center"><a href="javascript:void(0);" target="_blank" class="btn btn-outline-primary "><i class="fa"></i>Join Our Discord</a></p>
                                 </div>
                             </div>
