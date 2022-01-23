@@ -141,6 +141,7 @@ td {
 .discord_user_spacer {
     transition: var(--discord_user_timer);
     padding-top: 0px;
+    justify-content: center;
 }
 
 #user:hover #image {
