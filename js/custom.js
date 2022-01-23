@@ -20,6 +20,12 @@ $.getJSON(conanServerData, function(data) {
 
 });
 
+function btnclick() {
+    const lbl = document.getElementById('lbl1');
+    const lbtn1 = document.getElementById('btn1');
+
+    lbl1.innerHTML = btn1.value;
+}
 
 //var discordAPI = 'https://discord.com/api/guilds/651455552517570586/members'
 
