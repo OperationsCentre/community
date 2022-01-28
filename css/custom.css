@@ -216,3 +216,15 @@ td {
 .discord_buttons {
     padding: 5%;
 }
+
+.conan-link-try {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: fixed;
+    top: 0%;
+}
+
+.center-elements {
+    justify-content: center;
+}
