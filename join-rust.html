@@ -47,9 +47,53 @@
       name="twitter:image"
       content="https://operationscentre.github.io/community/img/rust-logo.jpg"
     />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300"
+    />
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.css"
+    />
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Leaflet CSS - For the map-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"
+    />
   </head>
 
-  <body></body>
+  <body>
+    <section
+      id="intro"
+      style="
+        background: url(img/rust-banner.jpg) center center no-repeat;
+        background-size: cover;
+      "
+      class="intro-section pb-2 center-elements"
+    >
+      <p class="conan-link-try">
+        If Rust did not launch, click &nbsp;
+        <a href="steam://connect/199.127.61.3:28255">here </a> &nbsp; to try
+        again
+      </p>
+    </section>
+  </body>
   <script>
     window.onload = function () {
       window.location.href = "steam://connect/199.127.61.3:28255";
