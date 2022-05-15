@@ -1,5 +1,5 @@
 var conanServerData =
-  "https://conan-exiles.com/api/?object=servers&element=detail&key=pPErjPgTNAqpdedOFkVcIFYJeF2JXdWYR88";
+  "https://conan-exiles.com/api/?object=servers&element=detail&key=qdfJdmRt2dSknNcCJAn3hJSSmyO1uejpfYB";
 
 $.getJSON(conanServerData, function (data) {
   var progressbar = document.getElementById("conan-population");
