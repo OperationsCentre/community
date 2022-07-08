@@ -21,7 +21,7 @@ $.getJSON(conanServerData, function (data) {
 });
 
 var rustSererData =
-  "https://rust-servers.net/api/?object=servers&element=detail&key=c0T0pgPyaS6EnnU1XuTjFh1rmvJdPQz1gnE";
+  "https://rust-servers.net/api/?object=servers&element=detail&key=0OU0ATttBCRNd01o8JHMrgXujmDNqSz5r5d";
 
 $.getJSON(rustSererData, function (data) {
   var progressbar = document.getElementById("rust-population");
@@ -47,7 +47,7 @@ $.getJSON(rustSererData, function (data) {
   uptimeEnt.innerHTML = uptime;
 });
 
-var rustServerDataBattle = "https://api.battlemetrics.com/servers/14481826";
+var rustServerDataBattle = "https://api.battlemetrics.com/servers/15912254";
 
 $.getJSON(rustServerDataBattle, function (data) {
   var rustfps = document.getElementById("rust-curfps");
